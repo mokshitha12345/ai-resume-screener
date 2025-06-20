@@ -7,7 +7,7 @@ import pandas as pd
 import time
 
 # Load model
-model = SentenceTransformer('fine_tuned_resume_model')
+model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # UI Config
 st.set_page_config(page_title="AI Resume Screener", page_icon="📋", layout="wide")
